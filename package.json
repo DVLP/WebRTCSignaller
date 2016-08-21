@@ -1,0 +1,22 @@
+{
+  "name": "webrtcsignaller",
+  "version": "1.0.0",
+  "description": "Basic peer.js server implementation",
+  "scripts": {
+    "start": "peerjs --port $PORT || 80 --key peerjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DVLP/WebRTCSignaller.git"
+  },
+  "author": "Pawel Misiurski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DVLP/WebRTCSignaller/issues"
+  },
+  "homepage": "https://github.com/DVLP/WebRTCSignaller#readme",
+  "dependencies": {
+    "peer": "^0.2.8"
+  }
+}
